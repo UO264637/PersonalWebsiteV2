@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta name="keywords" content="Personal, Aficiones">
+    <meta name="author" content= "Carmen Sirgo Lopez">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/estiloBusqueda.css">
+    <title>Web Personal - Carmen Sirgo López</title>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Carmen Sirgo López</h1>
+        <nav>
+            <ul>
+                <li class="selected"><a href="index.html" title="Enlace a la página principal">Inicio</a></li>
+                <li><a href="aficiones.html" title="Enlace a aficiones">Aficiones</a></li>
+                <li><a href="libros.html" title="Enlace a libros leídos">Libros</a></li>
+                <li><a href="videojuegos.html" title="Enlace a videojuegos jugados">Videojuegos</a></li>
+            </ul>
+        </nav>
+        <form>
+            <input id="searchBar" type="text" placeholder="Buscar..."></input>
+            <button id="searchButton" type="submit"><img src="./icons/searchIconW.png"></img></button>
+        </form>
+        <ul id="searchBox">
+            <li class="selected"><a href="index.html" title="Enlace a la página principal">Inicio</a></li>
+            <li><a href="aficiones.html" title="Enlace a aficiones">Aficiones</a></li>
+            <li><a href="libros.html" title="Enlace a libros leídos">Libros</a></li>
+            <li><a href="videojuegos.html" title="Enlace a videojuegos jugados">Videojuegos</a></li>
+        </ul>
+    </header>
+    <main>   
+        <aside><img src="mifoto.jpg" alt="Foto personal"></aside>  
+        <section>
+            <h2>Introducción</h2>
+            <p>Soy graduada de Ingeniería Informática del Software y estudiante del Máster en Ingeniería Web
+                de la universidad de Oviedo.</p> 
+            <p> 
+                Esta es mi web personal, en ella se puede encontrar información como mis aficiones,
+                últimos libros leídos y últimos videojuegos jugados.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <h2>Contacto</h2>
+        <ul> 
+            <li>E-mail: UO264637@uniovi.es</li>
+            <li>Teléfono: 689 02 98 00</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/carmen-sirgo-l%C3%B3pez-9488271a6">Carmen Sirgo López</a></li>
+        </ul>
+        <hr>
+        <p>Última modificación: 4/12/2022</p>
+        <p>Copyright @2022 Carmen Sirgo López</p>    
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
