@@ -355,4 +355,12 @@ footer a:visited {
     }
 }
 
+@media screen and (max-width: 425px) {
+    header {
+        min-height: 100px;
+    }
 
+    h1 {
+        max-width: 300px;
+    }
+}
