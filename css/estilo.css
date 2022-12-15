@@ -363,4 +363,8 @@ footer a:visited {
     h1 {
         max-width: 300px;
     }
+
+    .nav {
+        top: 100px;
+    }
 }
