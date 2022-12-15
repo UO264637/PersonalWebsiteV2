@@ -254,6 +254,10 @@ footer a:visited {
     color: #99f6e4;
 }
 
+article video, article img {
+    margin-bottom: 1vh;
+}
+
 /* Adaptability */
 @media screen and (max-width: 1350px) {
     .header-content, .page-content, .footer-content {
@@ -323,12 +327,8 @@ footer a:visited {
         max-width: 200px;
         height: 10vh;
         max-height: 50px;
+        margin-left: 5vw;
         justify-content: flex-start;
-    }
-
-    .nav nav ul li a {
-        margin-top: 8vh;
-        margin-left: 5vw
     }
 
     .nav nav ul li a img {
