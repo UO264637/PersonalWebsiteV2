@@ -65,6 +65,21 @@ h4 {
     margin-top: 1vh;
     margin-bottom: 1vh;
     font-weight: 500;
+
+    display: flex;
+}
+
+h4 img {
+    height: 22px;
+    width: 22px;
+    margin-left: 0.5vw;
+    display: inline-block;
+}
+
+hr {
+    border-color: #ccfbf1;
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
 }
 
 nav {
